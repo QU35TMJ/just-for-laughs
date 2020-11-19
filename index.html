@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <img src="#">
+    <div id="wrapper">
+        <img src="#">
+    </div>
+    <button id="btn">Refresh</button>
+    
     <script>
         const img = document.querySelector('img');
         fetch('https://api.giphy.com/v1/gifs/translate?api_key=SC3kcKpveuSom0nSOJ5ARf0tbzZyqSmL&s=cats', {mode: 'cors'})
