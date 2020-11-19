@@ -1,16 +1,16 @@
 body{
     width: 100%;
-    background-color:lavender;
+    background-color:lightcyan;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
 }
-#wrapper{
-    width: 30%;
-    height: 30%;
-    margin: 0 auto;
-    border: 2px solid black;
-}
+
 #btn{
     background-color: chocolate;
     border-radius: 5px;
     margin-top: 1em;
-    margin-left: 50em;
+    
 }
